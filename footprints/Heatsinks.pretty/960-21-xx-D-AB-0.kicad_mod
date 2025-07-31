@@ -1,0 +1,126 @@
+(footprint "960-21-xx-D-AB-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Heat Sink BGA Aluminum Top Mount")
+	(property "Reference" "960-21-21-D-AB-0\n21x21x21"
+		(at -19.7 -23.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "93b7b29a-a438-4c7a-b143-45fe42d6c4db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "960-21-xx-D-AB-0"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac95fed3-299d-4daf-9df9-7fba068c3ba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/693/960_Series.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b564e671-2aba-4fbc-806f-3c380a454a7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Heat Sink BGA Aluminum Top Mount"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b07f871b-3fa3-4449-8861-af25dd71da59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.5 -10.5)
+		(end 10.5 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "0aa8606e-89ce-4652-92cd-a532cdf9ecd8")
+	)
+	(fp_circle
+		(center -13.575 13.925)
+		(end -11.825 13.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "07464f3a-7b2e-4a20-a199-de8bda9d05c6")
+	)
+	(fp_circle
+		(center -13.575 13.925)
+		(end -10.075 13.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "76ef97bb-f9d5-4d14-ab64-1b58c484fa31")
+	)
+	(fp_circle
+		(center 13.925 -13.925)
+		(end 15.675 -13.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "bd74acf4-be55-4af7-9b10-4bd85dad6749")
+	)
+	(fp_circle
+		(center 14.275 -13.925)
+		(end 17.775 -13.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "abb27579-a687-45f2-933c-d0395fa8af29")
+	)
+	(embedded_fonts no)
+	(model "${IND502_3DMODEL_DIR}/21x21.960-21-21-D-AB-0.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

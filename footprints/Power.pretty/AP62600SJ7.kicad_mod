@@ -1,0 +1,213 @@
+(footprint "AP62600SJ7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "V-QFN2030-12_2024")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "129e072f-effb-452e-8ff7-44acd69f1081")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AP62600SJ7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4962c41-6933-4b7b-8fb1-b4e49b46b380")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db7e45fa-44e8-4068-afdf-ac3830a76b49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed4bcfed-b1ce-4793-9933-5b4cf75da23a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.45 -0.5)
+		(end -1.4 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d2ff3f9d-18e3-4264-a172-c3f8a1f30a35")
+	)
+	(fp_rect
+		(start -1.2 -1.7)
+		(end 1.2 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "97bbc8f3-ac6b-48f1-84ff-ebcc8cc4ee65")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end 1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9abe854d-434b-467e-89d1-ee732e418578")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38fca2c3-a6d6-4382-9768-2f256032e0de")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "940f230b-a041-4b80-9daa-41065cfa1db0")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c0488a6-90df-451f-a359-a3e3dfc43d38")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "7a1a056b-4a3b-48bd-93f1-3c067d82df6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.45 -0.5 90)
+		(size 0.35 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f364d794-5777-4d86-9a63-135712cf353c")
+	)
+	(pad "2" smd rect
+		(at -0.45 0.5 90)
+		(size 0.35 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41da95e0-dd1e-4a0a-b986-82eccfcb6193")
+	)
+	(pad "3" smd rect
+		(at -0.75 1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8df3872-2332-46b5-a324-3b7112651572")
+	)
+	(pad "4" smd rect
+		(at -0.25 1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f3bac0c2-7707-4ef6-9cb3-5e61d62543d0")
+	)
+	(pad "5" smd rect
+		(at 0.25 1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5174be7-bd0d-439c-8de7-684e64c34727")
+	)
+	(pad "6" smd rect
+		(at 0.75 1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7161889d-a877-49f3-8b4a-eb27e5ecb26f")
+	)
+	(pad "7" smd rect
+		(at 0.85 0.5 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cbeff1ec-b4fd-407e-aea2-55369798b20d")
+	)
+	(pad "8" smd rect
+		(at 0.45 0 90)
+		(size 0.35 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "333d1f52-7473-4e33-ba9c-1f43a73e2c6a")
+	)
+	(pad "9" smd rect
+		(at 0.75 -1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1adb5665-7a8c-48b2-ac4f-3794addb492e")
+	)
+	(pad "10" smd rect
+		(at 0.25 -1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d550a41-9d0c-4659-a442-f030c2743627")
+	)
+	(pad "11" smd rect
+		(at -0.25 -1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae07e754-2c70-4d1e-841c-4344446d3ee8")
+	)
+	(pad "12" smd rect
+		(at -0.75 -1.35)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f7abc95-42be-49cc-aa8c-44bee465228e")
+	)
+	(embedded_fonts no)
+	(model "${IND502_3DMODEL_DIR}/AP62600SJ-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,144 @@
+(footprint "SPM4030T-xxxM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPM4030T-xxxM")
+	(tags "Inductor (FeSi Core)")
+	(property "Reference" "REF**"
+		(at 0 -3.05 0)
+		(layer "F.SilkS")
+		(uuid "2dac8b06-2823-4ed8-8d3b-9e6711fc754e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPM4030T-xxxM"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7970cfd9-4184-4deb-96e7-d60792710811")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "718fe7ca-d86a-485a-828f-6d2cd91b158b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0d7897b-1b39-48d1-a695-a15eceac3566")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.1 -2.15)
+		(end -2.1 -2.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "451c39d4-d8e9-4351-962e-054b4f67c5a8")
+	)
+	(fp_line
+		(start 2.1 2.15)
+		(end -2.1 2.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51f7db25-96c5-4a2e-910b-d88a9bbb78df")
+	)
+	(fp_circle
+		(center -2.85 0)
+		(end -2.85 0.05)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0af130ab-eaa6-4e50-8e39-9077d811ad48")
+	)
+	(fp_rect
+		(start -2.5 -2.1)
+		(end 2.5 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bd7f495a-0b3a-4a03-a758-beff63a815d3")
+	)
+	(fp_rect
+		(start -2.1 -2)
+		(end 2.1 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6728631-e27b-4613-be46-be4da7cf4aa5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "edce1e14-80e6-468f-b6b6-f351fc25ec20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.55 0)
+		(size 1.8 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a780f74-05e4-4454-9f65-3236e254a618")
+	)
+	(pad "2" smd rect
+		(at 1.55 0)
+		(size 1.8 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00baeac8-f008-4e59-8fb7-598b761ab95a")
+	)
+	(embedded_fonts no)
+	(model "${IND502_3DMODEL_DIR}/spm4030.step"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

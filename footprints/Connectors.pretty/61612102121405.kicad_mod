@@ -1,0 +1,135 @@
+(footprint "61612102121405"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wurth Elektronik WR-SMB SMT connector")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79edca7f-4575-4846-93f5-5efef4eaa8ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "61612102121405"
+		(at -0.1 9.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "086af1bf-5c52-45e2-8ef4-a560e4680d8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f21d596b-1fe3-4910-92e4-7bd8a417fa25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a79049c-1a21-47bf-9081-9fcfe2cd93de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.55 -3.55)
+		(end 3.55 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e081232b-8c53-4e30-b240-825ed4b9c5b3")
+	)
+	(fp_rect
+		(start -3.15 -3.15)
+		(end 3.15 3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ceb8a3ff-5c0f-48b2-b586-1b40389618e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc297a0a-cae6-46b9-ac74-1224e369a459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f7d85e7-7a07-4df5-933e-2a3c3525e6ad")
+	)
+	(pad "2" smd rect
+		(at -2.5 -2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8fa68f43-4158-485e-a160-457ac323d696")
+	)
+	(pad "2" smd rect
+		(at -2.5 2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e79119a6-c712-499a-bdc6-71d83aff6f6b")
+	)
+	(pad "2" smd rect
+		(at 2.5 -2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c52a02c8-f70e-4fc2-872e-17b1fc22f4bc")
+	)
+	(pad "2" smd rect
+		(at 2.5 2.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b872457-8b96-495b-bbe6-bce444bae7d1")
+	)
+	(embedded_fonts no)
+	(model "${IND502_3DMODEL_DIR}/STEP_61612102121405 (rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

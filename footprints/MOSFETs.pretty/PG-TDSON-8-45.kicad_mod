@@ -1,0 +1,184 @@
+(footprint "PG-TDSON-8-45"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4644c87-e11e-4111-8e8d-addd9fa9fa02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PG-TDSON-8-45"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb14378c-f803-4e09-b0ba-194e9bc20675")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52d45f0c-fe7f-42e8-9bc9-16cc2ffd242c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a833d9ec-305d-4ad2-9274-a0d08a8ed03f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_circle
+		(center -1.905 3.6)
+		(end -1.805 3.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1114b553-f54a-48cc-96e7-7a3f2b8ee1ae")
+	)
+	(fp_rect
+		(start -2.65 -3.35)
+		(end 2.65 3.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1dd46090-e106-4fbc-9769-c5d5c439c916")
+	)
+	(fp_rect
+		(start -2.55 -2.95)
+		(end 2.55 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "56459280-fe80-431d-9005-3b84600c24d9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0e7367ab-7ef0-4cd5-963c-693387897590")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.905 2.88)
+		(size 0.5 0.815)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "45e6d12b-2d89-4c36-bf2f-58d7c7ccd2f8")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.88)
+		(size 0.5 0.815)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f98dd25e-b124-427f-922c-d3172ab1542c")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.88)
+		(size 0.5 0.815)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fa96e4e0-3a2f-4a7e-8807-5b4c63481409")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.88)
+		(size 0.5 0.815)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0e57fc52-7fe6-47fd-8c4c-d2b9e88937ba")
+	)
+	(pad "5" smd custom
+		(at 1.905 -2.845)
+		(size 0.5 0.89)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -4.06 0.32)
+				(end 0.25 3.975)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "14bd173d-7785-408e-b6db-3dc8c776add1")
+	)
+	(pad "6" smd rect
+		(at 0.635 -2.9075)
+		(size 0.5 0.765)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "33e38c07-95fe-49cf-8f84-7cbe54672085")
+	)
+	(pad "7" smd rect
+		(at -0.635 -2.9075)
+		(size 0.5 0.765)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c7c2b5b7-71b5-417c-96db-95b542e09ff5")
+	)
+	(pad "8" smd rect
+		(at -1.905 -2.9075)
+		(size 0.5 0.765)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9376c555-9cd6-4630-ad75-3bc6b0405483")
+	)
+	(embedded_fonts no)
+	(model "${IND502_3DMODEL_DIR}/Infineon-PG-TDSON-8-45_3D_01_STP-Package-v14_00-EN.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
