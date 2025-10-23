@@ -1,0 +1,116 @@
+(footprint "DFN985X585X50-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(layer "F.SilkS")
+		(uuid "3bb40382-a7b4-49ee-b119-cfc2d45c0de7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN985X585X50-3N"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "ad2fb902-2668-4cd6-9d83-88ee0a410ed0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "863a18fe-2d61-4617-8a6c-d9e00ee74e5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cb8a150-004b-4498-923a-3cd0583804bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.75 -0.225)
+		(end -0.7 -0.225)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e2c5333c-0c3b-4eeb-8f19-2de672704d8f")
+	)
+	(fp_rect
+		(start -0.585 -0.39)
+		(end 0.585 0.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea8b6043-23a2-48b8-a97d-4af02b629b40")
+	)
+	(fp_rect
+		(start -0.49 -0.29)
+		(end 0.49 0.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b76ea6dd-09c6-43c9-9873-9d3d8e66dd47")
+	)
+	(pad "1" smd rect
+		(at -0.35 -0.225)
+		(size 0.4 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01596e45-90ba-47ef-acdf-a08c9c0a24a8")
+	)
+	(pad "2" smd rect
+		(at -0.35 0.225)
+		(size 0.4 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3776677-f521-4b5a-8bec-9011df88eeea")
+	)
+	(pad "3" smd rect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0441ffbf-4db6-452c-8624-f42d4e21b2e8")
+	)
+	(embedded_fonts no)
+	(model "${MR_3DMODEL_DIR}/NX138BKMYL.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
